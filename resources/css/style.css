@@ -1,0 +1,131 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+margin: 0 auto;
+font-family: 'Raleway', sans-serif;
+}
+
+.navigation,
+.pull-quote,
+h1,
+h2,
+h5,
+a {
+text-transform: uppercase;
+}
+
+/* Navigation */
+.navigation {
+text-align: center;
+letter-spacing: 3px;
+font-family: 'Raleway', sans-serif;
+}
+
+li {
+text-align: center;
+overflow: hidden;
+margin: 2.1rem;
+font-size: 1.3rem;
+font-weight: 100;
+}
+
+.logo {
+font-size: 1.6rem;
+font-weight: bolder;
+}
+
+/* Background Image */
+
+.hero {
+background-image: url('./images/htmlcss1-img_tahoe.jpeg');
+background-size: cover;
+height: 1000px;
+}
+
+h1 {
+margin: 0 auto;
+top: 50px;
+width: 450px;
+position: relative;
+border: 3px solid white;
+font-size: 2.8rem;
+font-weight: normal;
+padding: 45px 30px;
+border-radius: 3px;
+line-height: 3.2rem;
+color: #fffafa;
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+}
+
+/* Main content */
+
+h2 {
+font-size: 2rem;
+padding: 20px 30px;
+margin: 30px 20px;
+text-align: center;
+font-family: 'PT Serif', serif;
+line-height: 45px;
+color: red;
+}
+
+h5 {
+font-family: monospace;
+color: silver;
+text-align: center;
+border-top: 1px solid lightgrey;
+border-bottom: 1px solid lightgrey;
+font-weight: 100;
+font-size: 1rem;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  margin-left: 350px;
+  padding: 10px 20px;
+  width: 500px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-weight: 300;
+  min-width: 300px;
+  max-width: 600px
+}
+
+.pull-quote {
+margin: 0 auto;
+width: 480px;
+border: 1px solid red;
+color: red;
+line-height: 40px;
+padding: 30px 20px;
+font-size: 1.3rem;
+font-family: 'Roboto Slab', monospace;
+border-radius: 5px;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 14px;
+  text-decoration: none;
+  margin-left: 13.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
